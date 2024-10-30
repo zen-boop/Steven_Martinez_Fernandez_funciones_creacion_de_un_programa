@@ -1,0 +1,4 @@
+def my_function(x):#define la funcion y adentro x
+  print(x)#coloca la x
+
+my_function(x = 3)#hace que x sea igual a 3
