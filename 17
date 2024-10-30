@@ -1,0 +1,4 @@
+def my_function(x):#crea una funcion y adentro hay x
+  print(x)#cloca x
+
+my_function(3)#coloca el rsultado
