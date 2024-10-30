@@ -1,0 +1,4 @@
+def my_function(*, x):##funcion y adentro x,*
+  print(x)#coloca la x
+
+my_function(x = 3)#imprime la funcion
