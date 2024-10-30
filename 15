@@ -1,0 +1,4 @@
+def my_function(x, /):#usa el / para que se definan valores solos
+  print(x)#coloca la x
+
+my_function(x = 3)#define otra vez x a 3 y da error
