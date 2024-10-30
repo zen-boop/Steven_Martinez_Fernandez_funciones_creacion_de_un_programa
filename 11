@@ -1,0 +1,2 @@
+def myfunction():#define una funcion sin nada
+  pass#evita tener error
