@@ -1,0 +1,7 @@
+def my_function(food):#funcion y adentro estan frutas
+  for x in food:#mientras x este en fruts se repite es un contador para que las imprima en lista
+    print(x)#imprime x
+
+fruits = ["apple", "banana", "cherry"]#creea una lista de frutas
+
+my_function(fruits)#imprime el resultado esperado
