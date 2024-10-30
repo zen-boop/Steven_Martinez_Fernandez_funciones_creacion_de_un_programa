@@ -1,0 +1,6 @@
+def my_function(x):#define la funcion y adentro x
+  return 5 * x#regresa "x" * 5
+
+print(my_function(3))#coloca el resultado
+print(my_function(5))
+print(my_function(9))
