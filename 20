@@ -1,0 +1,10 @@
+def tri(k):#funcion y adentro esta k
+  if(k > 0):#si k es mayor que 0 se repetira
+    result = k + tri(k - 1)#se le añade a "result" el valor de "+tri(k-1)" para que imprima y sume aumentando el numero
+    print(result)#imprime el resultado
+  else:#si no se cumple se hace lo de abajo
+    result = 0#el resultado vale 0 para que no se repita
+  return result#regresa el resultado
+
+print("\n\nRecursion Example Results")#imprime
+tri(6)#el 6 es el indicador de cuantas veces se repite
