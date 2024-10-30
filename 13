@@ -1,0 +1,4 @@
+def my_function(x, /):#es para que agrege / despues de los argumentos
+  print(x)#coloca la x
+
+my_function(3)#coloca el resultado
